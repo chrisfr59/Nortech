@@ -6,8 +6,8 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href=".css" />
+
 </head>
 <body>
 
@@ -17,7 +17,7 @@
         <fieldset class="col-md-6 align-self-center f1">
                 <legend>Se connecter</legend>
                 
-                <form name="formlog" class="border border-success p-5" method="POST" name="Connexion" action="logerTrait.php" required>
+                <form name="formlog" class="border border-success p-5" method="POST" name="Connexion" action="traitement_login.php" required>
                     <div class="row">
                         <div class="col-md-6">
                 <label for="id_user">identifiant:</label>

@@ -34,7 +34,7 @@ $reponse=$req->execute(array(
 $resultat= $req ->fetch();
 if(!$resultat){
     //Affichage d'un message d'erreur si l'identifiant ou le motPasse est incorrecte
-    echo"<script type='text/javascript'>document.location.replace('loger.php');
+    echo"<script type='text/javascript'>document.location.replace('login.php');
              alert('l\'Identifiant ou le mot de passe sont incorrectes  !!');</script>";
 }else{
 
@@ -54,18 +54,18 @@ while ($resultat=$req ->fetch()){
         header('Location: redirection.php');
 
     }else if($resultat['droits']==2){
-        header('Location: http://localhost/nord/droit2.php');
+        header('Location: http://localhost/nortech-V1/redirection.php');
     }else if($resultat['droits']==3){
-        header('Location: http://localhost/nord/droit3.php');
+        header('Location: http://localhost/nortech-V1/redirection.php');
     }else{
-        header('Location: http://localhost/nord/droit4.php');
+        header('Location: http://localhost/nortech-V1/redirection.php');
     }
 }
 }
 }
 }else{
     //Affichage d'un message d'erreur si l'identifiant ou le motPasse est incorrecte
-    echo"<script type='text/javascript'>document.location.replace('loger.php');
+    echo"<script type='text/javascript'>document.location.replace('login.php');
              alert('l\'Identifiant ou le mot pass sans incorrecte  !!');</script>";
 }
 
