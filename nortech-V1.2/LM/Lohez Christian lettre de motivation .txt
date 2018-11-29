@@ -1,0 +1,2 @@
+Ouvrir l'application Wamp
+Prendre le dossier nortech et le déplacer dans le dossier "C:/wamp64/www" (remplacer le chemin par le chemin dont vous avez installer wamp)
