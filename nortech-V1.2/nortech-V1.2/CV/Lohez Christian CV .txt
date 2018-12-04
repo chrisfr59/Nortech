@@ -1,0 +1,6 @@
+Fonctionnalités groupe B :
+- Update
+- Delete
+- Absence
+- Tri fonction/service
+- Envoi de mail avec checkbox
